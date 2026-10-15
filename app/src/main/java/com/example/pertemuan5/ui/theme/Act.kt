@@ -46,6 +46,7 @@ fun FormDataDiri(modifier: Modifier = Modifier) {
         verticalArrangement = Arrangement.Top,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
+
         OutlinedTextField(
             value = textNama,
             singleLine = true,
@@ -56,6 +57,7 @@ fun FormDataDiri(modifier: Modifier = Modifier) {
                 textNama = it
             }
         )
+
         Row {
             gender.forEach { item ->
                 Row(
